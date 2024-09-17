@@ -4,8 +4,8 @@ lista2 = []
 for i in range(5):
     n = lista1[i] * 2
     lista2.append(n)    #essendo una lista vuota non posso assegnare valori ma devo usare append
-    print(lista1[i])
-    print(lista2[i])
+print(lista1[i])
+print(lista2[i])
 
 #2) Trovo il fattoriale di un numero inserito in input
 num = int(input('Inserisci un numero: '))
